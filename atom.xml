@@ -6,9 +6,24 @@
     <updated>2024-10-03T05:46:51.000Z</updated>
     <entry>
         <id>https://qshan805.github.io/2024/10/03/myfirst/</id>
-        <title>myfirst</title>
+        <title>喝口java！( ・ω・)っ♨</title>
         <link rel="alternate" href="https://qshan805.github.io/2024/10/03/myfirst/"/>
-        <content type="html">&lt;p&gt;这是一篇测试文章！12345&lt;/p&gt;
+        <content type="html">&lt;p&gt;这里是我的 Java 学习记录！（但也会出现其他的东西，所以可能是综合学习记录！&lt;br /&gt;
+本文非技术向，也不算是笔记，仅仅记录自己的学习进度。&lt;br /&gt;
+本来是想做一个 Java 笔记本的，思考了一下发现自己目前用不上，我现有的知识都很容易在网上检索到，不需要我自己整理属于自己的笔记本了。&lt;/p&gt;
+&lt;h2 id=&#34;day01-10-09&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#day01-10-09&#34;&gt;#&lt;/a&gt; day01 10-09&lt;/h2&gt;
+&lt;p&gt;lc 1&lt;br /&gt;
+ 速通了 java 基础语法，因为有 c++ 基础所以速通得异常丝滑。&lt;br /&gt;
+刚改用 java 刷算法题，感觉被人改了键位......&lt;/p&gt;
+&lt;h2 id=&#34;day02-10-10&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#day02-10-10&#34;&gt;#&lt;/a&gt; day02 10-10&lt;/h2&gt;
+&lt;p&gt;lc 1&lt;br /&gt;
+ 打算自顶向下地去学习，直接跟着项目视频看，翻到不了解的技术栈再学习对应的模块。&lt;br /&gt;
+这么学肯定会遗失许多细节与底层的知识，打算之后再慢慢补。因为我太急了嘛......&lt;br /&gt;
+ 看了 java 面向对象基础，晚上看了两个小时项目的入门介绍。&lt;/p&gt;
+&lt;h2 id=&#34;day03-10-11&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#day03-10-11&#34;&gt;#&lt;/a&gt; day03 10-11&lt;/h2&gt;
+&lt;p&gt;lc 1&lt;br /&gt;
+ 上午搭建环境，写力扣。&lt;br /&gt;
+下午环境出毛病（悲），继续搭建环境，学习 git 简单使用。&lt;/p&gt;
 </content>
         <updated>2024-10-03T05:46:51.000Z</updated>
     </entry>
