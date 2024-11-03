@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Hexo",
+    "title": "null",
     "description": "",
     "home_page_url": "http://example.com",
     "items": [
@@ -10,6 +10,14 @@
             "title": "Hello World",
             "date_published": "2024-11-03T06:31:13.531Z",
             "content_html": "<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check <a href=\"https://hexo.io/docs/\">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href=\"https://hexo.io/docs/troubleshooting.html\">troubleshooting</a> or you can ask me on <a href=\"https://github.com/hexojs/hexo/issues\">GitHub</a>.</p>\n<h2 id=\"quick-start\"><a class=\"markdownIt-Anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"markdownIt-Anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo new <span class=\"token string\">\"My New Post\"</span></pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/writing.html\">Writing</a></p>\n<h3 id=\"run-server\"><a class=\"markdownIt-Anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/server.html\">Server</a></p>\n<h3 id=\"generate-static-files\"><a class=\"markdownIt-Anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/generating.html\">Generating</a></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"markdownIt-Anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/one-command-deployment.html\">Deployment</a></p>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/2024/10/13/shokax_build/",
+            "url": "http://example.com/2024/10/13/shokax_build/",
+            "title": "ShokaX 建站过程问题记录",
+            "date_published": "2024-10-13T05:46:51.000Z",
+            "content_html": "<h2 id=\"未解决\"><a class=\"markdownIt-Anchor\" href=\"#未解决\">#</a> 未解决</h2>\n<h3 id=\"无法打开httplocalhost4000\"><a class=\"markdownIt-Anchor\" href=\"#无法打开httplocalhost4000\">#</a> 无法打开<a href=\"http://localhost:4000/\"> http://localhost:4000/</a></h3>\n<p>hexo g,hexo s 时均显示以下信息：</p>\n<pre><code>node:internal/deps/undici/undici:12502\n      Error.captureStackTrace(err, this);\n            ^\n\nTypeError: fetch failed\n    at node:internal/deps/undici/undici:12502:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) &#123;\n  [cause]: Error: read ECONNRESET\n      at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20) &#123;\n    errno: -4077,\n    code: 'ECONNRESET',\n    syscall: 'read'\n  &#125;\n&#125;\n\nNode.js v20.15.1\n</code></pre>\n<p>hexo d 可以正常使用，也可以正常把网站相关代码提交到 GitHub，所以并不是很致命的错误…？<br>\n按理说 deploy 之前必须要 hexo g 生成静态文件才行，但即使我生成静态文件和本地预览都会出错，网页也正常地被修改了。</p>\n<p>stfw 之后，大概了解与网络有关，但没有找到解决办法。（也完全不懂 nodejs…TAT<br>\n 把报错信息喂给 kimi：</p>\n<p>Error: read ECONNRESET：</p>\n<blockquote>\n<p>Error: read ECONNRESET 表示发生了一个错误，错误消息是 “read ECONNRESET”，意味着<strong>在尝试读取数据时，连接被对方重置</strong>。</p>\n</blockquote>\n<p>{ errno: -4077, code: ‘ECONNRESET’, syscall: ‘read’ }：</p>\n<blockquote>\n<p>这是一个 JavaScript 对象，提供了错误的额外信息。<br>\nerrno: -4077 是一个系统特定的错误码，它通常与 ECONNRESET 错误相对应。<br>\ncode: ‘ECONNRESET’ 是一个字符串，表示错误的类型。<strong>ECONNRESET 是一个标准的 Node.js 错误码，表明 TCP 连接被对方重置</strong>。<br>\nsyscall: ‘read’ 表示在执行哪个系统调用时发生了错误。在这个情况下，是在尝试执行读取（read）操作时出现了问题。</p>\n</blockquote>\n",
             "tags": []
         }
     ]
