@@ -3,20 +3,20 @@
     <channel>
         <title></title>
         <subtitle>山亓的笔记本！</subtitle>
-        <icon>http://example.com/assets/favicon.ico</icon>
-        <link>http://example.com</link>
+        <icon>https://qshan805.github.io/assets/favicon.ico</icon>
+        <link>https://qshan805.github.io</link>
         <author>
           <name>山亓</name>
         </author>
         <description></description>
         <language>zh-cn</language>
-        <pubDate>Wed, 12 Mar 2025 23:18:42 +0800</pubDate>
-        <lastBuildDate>Wed, 12 Mar 2025 23:18:42 +0800</lastBuildDate>
+        <pubDate>Thu, 13 Mar 2025 00:13:29 +0800</pubDate>
+        <lastBuildDate>Thu, 13 Mar 2025 00:13:29 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/2025/03/12/hello-world/</guid>
+            <guid isPermalink="true">https://qshan805.github.io/2025/03/13/hello-world/</guid>
             <title>Hello World</title>
-            <link>http://example.com/2025/03/12/hello-world/</link>
-            <pubDate>Wed, 12 Mar 2025 23:18:42 +0800</pubDate>
+            <link>https://qshan805.github.io/2025/03/13/hello-world/</link>
+            <pubDate>Thu, 13 Mar 2025 00:13:29 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
