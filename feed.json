@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": null,
+    "subtitle": "山亓的笔记本！",
+    "icon": "https://qshan805.github.io/assets/favicon.ico",
+    "description": "",
+    "home_page_url": "https://qshan805.github.io",
+    "items": [
+        {
+            "id": "https://qshan805.github.io/2025/03/13/java/",
+            "url": "https://qshan805.github.io/2025/03/13/java/",
+            "title": "Java学习笔记",
+            "date_published": "2025-03-13T05:50:04.801Z",
+            "content_html": "<h2 id=\"java基础相关\"><a class=\"anchor\" href=\"#java基础相关\">#</a> Java 基础相关</h2>\n<h3 id=\"异常\"><a class=\"anchor\" href=\"#异常\">#</a> 异常</h3>\n<p>在 Java 中，所有的异常都有一个共同的祖先 java.lang 包中的 Throwable 类。</p>\n<p>Throwable 类有两个重要的子类:</p>\n<ul>\n<li>Exception : 程序本身可以处理的异常，可以通过 catch 来进行捕获。Exception 又可以分为 Checked Exception (受检查异常，必须处理) 和 Unchecked Exception (不受检查异常，可以不处理)。</li>\n<li>Error：Error 属于程序无法处理的错误 ，<s>我们没办法通过 catch 来进行捕获</s>不建议通过 catch 捕获 。例如 Java 虚拟机运行错误（Virtual MachineError）、虚拟机内存不够错误 (OutOfMemoryError)、类定义错误（NoClassDefFoundError）等 。这些异常发生时，Java 虚拟机（JVM）一般会选择线程终止。</li>\n</ul>\n<hr />\n<ol>\n<li><strong>Checked Exception（受检查异常）</strong></li>\n</ol>\n<ul>\n<li><strong>定义</strong>：也称为 <strong>编译时异常</strong>，是指在编译阶段必须被显式处理的异常。</li>\n<li><strong>特点</strong>：\n<ol>\n<li><strong>必须处理</strong>：如果方法中可能抛出受检查异常，那么必须在方法签名中使用  <code>throws</code>  声明该异常，或者在方法内部使用  <code>try-catch</code>  块捕获它。否则，代码无法通过编译。</li>\n<li><strong>通常可预见</strong>：这类异常通常是由于外部环境的不确定性导致的，例如文件找不到（ <code>FileNotFoundException</code> ）、网络连接失败（ <code>IOException</code> ）等。</li>\n<li><strong>继承自  <code>Exception</code>  类</strong>：但不包括  <code>RuntimeException</code>  及其子类。</li>\n</ol>\n</li>\n</ul>\n<hr />\n<ol start=\"2\">\n<li><strong>Unchecked Exception（非受检查异常）</strong></li>\n</ol>\n<ul>\n<li><strong>定义</strong>：也称为 <strong>运行时异常</strong>，是指在运行时才可能发生的异常，编译器不会强制要求程序员处理。</li>\n<li><strong>特点</strong>：\n<ol>\n<li><strong>无需声明或捕获</strong>：即使方法中可能抛出运行时异常，也不需要在方法签名中声明  <code>throws</code> ，也不需要在方法内部捕获。编译器不会检查这类异常。</li>\n<li><strong>通常由程序逻辑错误引起</strong>：例如空指针异常（ <code>NullPointerException</code> ）、数组越界异常（ <code>ArrayIndexOutOfBoundsException</code> ）等。</li>\n<li><strong>继承自  <code>RuntimeException</code>  类</strong>： <code>RuntimeException</code>  是  <code>Exception</code>  的子类。</li>\n</ol>\n</li>\n</ul>\n<hr />\n<p>try-catch-finally 如何使用？<br />\ntry 块：用于捕获异常。其后可接零个或多个 catch 块，如果没有 catch 块，则必须跟一个 finally 块。<br />\ncatch 块：用于处理 try 捕获到的异常。抓到异常匹配之后直接进入 catch，不继续下面的语句。<br />\n如果 try 中会出现多个异常，那就写多个 catch，而且不能把父类写在最上面，否则下面的子类会报错。并且，只要抓到第一个异常，下面的也就不抓了。<br />\nfinally 块：无论是否捕获或处理异常，finally 块里的语句都会被执行。当在 try 块或 catch 块中遇到 return 语句时，finally 语句块将在方法返回之前被执行。</p>\n<p>注意：不要在 finally 语句块中使用 return! 当 try 语句和 finally 语句中都有 return 语句时，try 语句块中的 return 语句会被忽略。这是因为 try 语句中的 return 返回值会先被暂存在一个本地变量中，当执行到 finally 语句中的 return 之后，这个本地变量的值就变为了 finally 语句中的 return 返回值。</p>\n",
+            "tags": []
+        },
+        {
+            "id": "https://qshan805.github.io/2025/03/13/hello-world/",
+            "url": "https://qshan805.github.io/2025/03/13/hello-world/",
+            "title": "Hello World",
+            "date_published": "2025-03-12T16:13:29.229Z",
+            "content_html": "<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check <a href=\"https://hexo.io/docs/\">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href=\"https://hexo.io/docs/troubleshooting.html\">troubleshooting</a> or you can ask me on <a href=\"https://github.com/hexojs/hexo/issues\">GitHub</a>.</p>\n<h2 id=\"quick-start\"><a class=\"anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo new <span class=\"token string\">\"My New Post\"</span></pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/writing.html\">Writing</a></p>\n<h3 id=\"run-server\"><a class=\"anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/server.html\">Server</a></p>\n<h3 id=\"generate-static-files\"><a class=\"anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/generating.html\">Generating</a></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/one-command-deployment.html\">Deployment</a></p>\n",
+            "tags": []
+        }
+    ]
+}
