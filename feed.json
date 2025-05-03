@@ -7,6 +7,14 @@
     "home_page_url": "https://qshan805.github.io",
     "items": [
         {
+            "id": "https://qshan805.github.io/2025/03/20/Redis%E5%85%AB%E8%82%A1/",
+            "url": "https://qshan805.github.io/2025/03/20/Redis%E5%85%AB%E8%82%A1/",
+            "title": "Redis八股",
+            "date_published": "2025-03-20T08:27:02.723Z",
+            "content_html": "<p>Redis 常用的数据类型有哪些？</p>\n<p>Redis 中比较常见的数据类型有下面这些：</p>\n<p>5 种基础数据类型：String（字符串）、List（列表）、Set（集合）、Hash（散列）、Zset（有序集合）。</p>\n<p>3 种特殊数据类型：HyperLogLog（基数统计）、Bitmap （位图）、Geospatial (地理位置)。</p>\n<p>除了上面提到的之外，还有一些其他的比如 Bloom filter（布隆过滤器）、Bitfield（位域）。</p>\n<p>Sorted Set（有序集合）</p>\n<p>类似于 Set，但和 Set 相比，Sorted Set 增加了一个权重参数 score，使得集合中的元素能够按 score 进行有序排列，还可以通过 score 的范围来获取元素的列表。有点像是 Java 中 HashMap 和 TreeSet 的结合体。</p>\n",
+            "tags": []
+        },
+        {
             "id": "https://qshan805.github.io/2025/03/13/java/",
             "url": "https://qshan805.github.io/2025/03/13/java/",
             "title": "Java学习笔记",
@@ -17,9 +25,9 @@
         {
             "id": "https://qshan805.github.io/2025/03/13/hello-world/",
             "url": "https://qshan805.github.io/2025/03/13/hello-world/",
-            "title": "Hello World",
+            "title": "地球旅行",
             "date_published": "2025-03-12T16:13:29.229Z",
-            "content_html": "<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check <a href=\"https://hexo.io/docs/\">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href=\"https://hexo.io/docs/troubleshooting.html\">troubleshooting</a> or you can ask me on <a href=\"https://github.com/hexojs/hexo/issues\">GitHub</a>.</p>\n<h2 id=\"quick-start\"><a class=\"anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo new <span class=\"token string\">\"My New Post\"</span></pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/writing.html\">Writing</a></p>\n<h3 id=\"run-server\"><a class=\"anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/server.html\">Server</a></p>\n<h3 id=\"generate-static-files\"><a class=\"anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/generating.html\">Generating</a></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/one-command-deployment.html\">Deployment</a></p>\n",
+            "content_html": "<p>3.15-3.16<br />\n 和朋友一起去了武汉。</p>\n<p>火车卧铺，穿梭过原野...... 铁轨发出隆隆的响声。</p>\n<p>武汉居然是被一条大江穿过的城市，真有趣！灰旧、湿热却人声鼎沸的城市，楼房错落，许多建筑年岁已长，各不相同的风格挤在一起，没有家乡视野开阔。这里的街道也并非横平竖直，而是顺着江水的流向舒展着。街道旁种了许多樟树，树皮湿润，部分生着青苔，让我心情很好。樟树原来可以长这么高！</p>\n<p>东湖很美，我们在湖中道上骑车吹风。白浪翻涌，鸥从天空飞过。</p>\n<p>樱花不在盛花期，没怎么看，于是去了武汉植物园。园区很大，种了许多美丽的杉树，路边随意一朵小花都标有名字。还看见了本土才有的鸟儿。</p>\n<p>热干面真的很好吃啊！！！！真的很好吃！！！！！！</p>\n<p>4.16-4.17</p>\n<p>自己去了连云港。</p>\n<p>这是我人生中第一次看到海！海啊！！！！</p>\n",
             "tags": []
         }
     ]
